@@ -1,0 +1,243 @@
+body > img {
+  position: absolute;
+  /*left: 200px;*/
+}
+body p {
+  margin: 0;
+}
+.wrapper {
+  position: absolute;
+  width: 750px;
+  height: 1334px;
+  /*background-image: url(../images/background.jpg);*/
+  background-size: 750px 1334px;
+  font-family: "SFNS Display", "Helvetica Neue", sans-serif;
+}
+.wrapper * {
+  box-sizing: border-box;
+}
+section.top-bar {
+  height: 40px;
+  padding: 5px 10px;
+}
+section.top-bar .signal {
+  float: left;
+  padding: 6px 2px;
+}
+section.top-bar .signal .circle {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid white;
+}
+section.top-bar .signal .circle.empty {
+  background-color: transparent;
+}
+section.top-bar .wifi {
+  float: left;
+  width: 36px;
+  height: 100%;
+  margin-left: 2px;
+}
+section.top-bar .wifi .circle {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top: 3px solid white;
+}
+section.top-bar .wifi .circle:nth-child(1) {
+  margin-top: 6px;
+  width: 36px;
+  height: 36px;
+}
+section.top-bar .wifi .circle:nth-child(2) {
+  margin-top: 12px;
+  margin-left: 6px;
+  width: 24px;
+  height: 24px;
+}
+section.top-bar .wifi .circle:nth-child(3) {
+  margin-top: 18px;
+  margin-left: 12px;
+  width: 12px;
+  height: 12px;
+  border: 6px solid transparent;
+  border-top: 6px solid white;
+}
+section.top-bar .wifi .circle:nth-child(3)::after {
+  clear: both;
+}
+section.top-bar .time {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+section.top-bar .battery-percent {
+  float: right;
+  margin-right: 5px;
+  font-size: 1.6rem;
+  color: white;
+}
+section.top-bar .battery {
+  float: right;
+  width: 51px;
+  height: 100%;
+}
+section.top-bar .battery .rect {
+  display: block;
+  width: 41px;
+  height: 15px;
+  margin-top: 8px;
+  margin-left: 3px;
+  border-radius: 1px;
+  background-color: white;
+}
+section.top-bar .battery .rect::before,
+section.top-bar .battery .rect::after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+section.top-bar .battery .rect::before {
+  width: 43px;
+  height: 17px;
+  margin-top: -2px;
+  margin-left: -2px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+section.top-bar .battery .rect::after {
+  width: 3px;
+  height: 7px;
+  margin-top: 4px;
+  margin-left: 44px;
+  border-radius: 0 12px 12px 0;
+  background-color: white;
+}
+section.icon-wrapper {
+  width: 644px;
+  height: 1042px;
+  margin: 16px auto;
+}
+section.icon-wrapper .icon {
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 160px;
+  margin-right: 54px;
+  margin-bottom: 16px;
+}
+section.icon-wrapper .icon:nth-child(4n) {
+  margin-right: 0;
+}
+section.icon-wrapper .icon p {
+  letter-spacing: .0625rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+section.icon-wrapper .icon > p {
+  font-size: 1.5rem;
+  margin-top: 9px;
+  color: white;
+}
+section.icon-wrapper .icon div[class^="icon-"] {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border-radius: 22%;
+  overflow: hidden;
+}
+section.icon-wrapper .icon .icon-messages {
+  padding: 17% 13% 22% 13%;
+  background: linear-gradient(to bottom, #73f98a, #27b137);
+}
+section.icon-wrapper .icon .icon-messages i.circle {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+}
+section.icon-wrapper .icon .icon-messages i.circle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 29%;
+  height: 33%;
+  left: 4%;
+  top: 49.6%;
+  border-radius: 50%;
+  border-right: 11px solid white;
+  transform: rotateZ(10deg);
+}
+section.icon-wrapper .icon .icon-calendar {
+  background-color: white;
+}
+section.icon-wrapper .icon .icon-calendar p {
+  line-height: 1em;
+}
+section.icon-wrapper .icon .icon-calendar p:first-child {
+  margin-top: 11%;
+  font-size: 1.35rem;
+  color: #f93f49;
+}
+section.icon-wrapper .icon .icon-calendar p:last-child {
+  margin-top: -5.4%;
+  font-size: 5rem;
+  text-indent: -0.2rem;
+  letter-spacing: 0;
+  color: #1b1b1b;
+  font-weight: lighter;
+}
+section.icon-wrapper .icon .icon-photos {
+  background-color: white;
+}
+section.icon-wrapper .icon .icon-photos .ellipse {
+  position: absolute;
+  display: block;
+  width: 26.7%;
+  height: 41.5%;
+  margin-left: 36.7%;
+  margin-top: 6.2%;
+  border-radius: 100px;
+  transform-origin: 50% 105%;
+  mix-blend-mode: multiply;
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(1) {
+  transform: rotateZ(0deg);
+  background: linear-gradient(to bottom, #f59438, #fbbe3d);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(2) {
+  transform: rotateZ(45deg);
+  background: linear-gradient(to bottom, #f7e23c, #e2de44);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(3) {
+  transform: rotateZ(90deg);
+  background: linear-gradient(to bottom, #c6d851, #9acc6b);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(4) {
+  transform: rotateZ(135deg);
+  background: linear-gradient(to bottom, #6ec192, #70bdbd);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(5) {
+  transform: rotateZ(180deg);
+  background: linear-gradient(to bottom, #6eb8e2, #87a4d1);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(6) {
+  transform: rotateZ(225deg);
+  background: linear-gradient(to bottom, #9e8fc1, #b38ebe);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(7) {
+  transform: rotateZ(270deg);
+  background: linear-gradient(to bottom, #cd8cba, #dd758e);
+}
+section.icon-wrapper .icon .icon-photos .ellipse:nth-child(8) {
+  transform: rotateZ(315deg);
+  background: linear-gradient(to bottom, #f06b68, #f1805a);
+}
