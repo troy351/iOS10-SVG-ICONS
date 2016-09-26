@@ -1,7 +1,6 @@
 body {
   & > img {
     position: absolute;
-    /*left: 200px;*/
   }
   p {
     margin: 0;
@@ -12,7 +11,7 @@ body {
   position: absolute;
   width: 750px;
   height: 1334px;
-  /*background-image: url(../images/background.jpg);*/
+  background-image: url(../images/ios10_background.jpg);
   background-size: 750px 1334px;
   font-family: "SFNS Display", "Helvetica Neue", sans-serif;
   * {
@@ -190,19 +189,20 @@ section.icon-wrapper .icon {
 
   .icon-calendar {
     background-color: white;
-    p {
-      line-height: 1em;
-    }
+
     p:first-child {
-      margin-top: 11%;
-      font-size: 1.35rem;
+      margin-top: 12.5%;
+      font-size: 1.15rem;
       color: #f93f49;
+      letter-spacing: 0.01875rem;
+      text-indent: 0.125rem;
+      line-height: 1.35rem;
     }
 
     p:last-child {
       margin-top: -5.4%;
       font-size: 5rem;
-      text-indent: -.2rem;
+      line-height: 1em;
       letter-spacing: 0;
       color: #1b1b1b;
       font-weight: lighter;
@@ -258,4 +258,113 @@ section.icon-wrapper .icon {
 
     .ellipseWhite(1);
   }
+
+  .icon-camera {
+    background: linear-gradient(to bottom, #f7f6f8, #8a8c91);
+    .top {
+      width: 70.2%;
+      height: 5.1%;
+      margin: 27.3% auto .9% auto;
+      border-radius: 5px 5px 0 0;
+      background: linear-gradient(to bottom, #444, #404040);
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 5.8%;
+        height: 2.5%;
+        margin-top: -3.4%;
+        margin-left: 6.6%;
+        border-radius: 2px 2px 0 0;
+        background: linear-gradient(to bottom, #383838, #3f3f3f);
+        z-index: 2;
+      }
+      .head {
+        position: absolute;
+        width: 29%;
+        height: 8.4%;
+        margin-top: -8.3%;
+        margin-left: 20.5%;
+        border-radius: 8px 8px 0 0;
+        background: linear-gradient(to bottom, #414141, #444);
+        i[class$='-corner'] {
+          display: block;
+          position: absolute;
+          width: 19%;
+          height: 52.5%;
+          margin-top: 14%;
+          background: linear-gradient(to bottom, #434343, #444);
+          &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 249%;
+            height: 275%;
+            margin-top: -140.5%;
+            border-radius: 50%;
+            background: linear-gradient(to bottom, #e5e5e7, #dadadc);
+          }
+        }
+        .left-corner {
+          margin-left: -17%;
+          &::before {
+            margin-left: -148%;
+          }
+        }
+        .right-corner {
+          margin-left: 98%;
+          &::before {
+            margin-left: -4%;
+          }
+        }
+      }
+    }
+    .mid {
+      width: 70.2%;
+      height: 36.6%;
+      margin: 0 auto;
+      background: linear-gradient(to bottom, #3e3e3e, #2c2c2c);
+      .circle {
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        width: 30.1%;
+        height: 30.3%;
+        margin-left: 20%;
+        margin-top: 3.2%;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, #ceced1, #afb0b4);
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 83%;
+          height: 83%;
+          margin-left: 8.6%;
+          margin-top: 8.1%;
+          border-radius: 50%;
+          background: linear-gradient(to bottom, #3b3b3b, #2f2f2f);
+        }
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 11%;
+          height: 11%;
+          margin-left: 97%;
+          margin-top: 0.3%;
+          border-radius: 50%;
+          background-color: #fec638;
+        }
+      }
+    }
+    .bottom {
+      width: 70.2%;
+      height: 5%;
+      margin: .9% auto;
+      border-radius: 0 0 5px 5px;
+      background: linear-gradient(to bottom, #2c2c2c, #272726);
+    }
+  }
 }
+
