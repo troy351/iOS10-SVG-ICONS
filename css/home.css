@@ -151,6 +151,8 @@ section.icon-wrapper .icon div[class^="icon-"] {
   position: relative;
   border-radius: 22%;
   overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 section.icon-wrapper .icon .icon-messages {
   padding: 17% 13% 22% 13%;
@@ -310,7 +312,6 @@ section.icon-wrapper .icon .icon-camera .mid {
 section.icon-wrapper .icon .icon-camera .mid .circle {
   display: block;
   position: absolute;
-  box-sizing: border-box;
   width: 30.1%;
   height: 30.3%;
   margin-left: 20%;
@@ -346,4 +347,44 @@ section.icon-wrapper .icon .icon-camera .bottom {
   margin: .9% auto;
   border-radius: 0 0 5px 5px;
   background: linear-gradient(to bottom, #2c2c2c, #272726);
+}
+section.icon-wrapper .icon .icon-notes .top {
+  width: 100%;
+  height: 31.1%;
+  background: linear-gradient(to bottom, #fcdc6a, #fccb42);
+  border-bottom: 1px solid #bababa;
+}
+section.icon-wrapper .icon .icon-notes .bottom {
+  width: 100%;
+  height: 68.9%;
+}
+section.icon-wrapper .icon .icon-notes .bottom .line {
+  width: 100%;
+  height: 27.5%;
+  font-size: 0;
+  border-bottom: 1px solid #bababa;
+  background-color: #ededed;
+}
+section.icon-wrapper .icon .icon-notes .bottom .line:first-child {
+  box-shadow: inset 0 3px 3px -2px #a2a2a2;
+}
+section.icon-wrapper .icon .icon-notes .bottom .line:first-child .circle {
+  display: inline-block;
+  width: 1.7%;
+  height: 9.26%;
+  margin-left: 1.63%;
+  margin-top: 5.2%;
+  border-radius: 50%;
+  box-shadow: inset -1px 2px 5px 1px #5d5d5d;
+}
+section.icon-wrapper .icon .icon-notes .bottom .line:first-child .circle:first-child {
+  margin-left: 1.2%;
+}
+section.icon-wrapper .icon .icon-notes .bottom .line:last-child {
+  height: 17.5%;
+  border-bottom: none;
+}
+section.icon-wrapper .icon div.icon-maps {
+  background: url(../images/icons/Maps.svg);
+  border-radius: 0;
 }

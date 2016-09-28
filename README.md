@@ -1,2 +1,2 @@
-# iOS10_CSS_ICONS
-iOS 10 default icons using pure css
+# iOS10_SVG_ICONS
+iOS 10 default icons using SVG
