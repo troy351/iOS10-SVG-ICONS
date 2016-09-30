@@ -1,7 +1,12 @@
-body > img {
-  position: absolute;
+@font-face {
+  font-family: SanFranciscoDisplay-Ultralight;
+  src: url("https://cdn.rawgit.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Ultralight.otf") format("opentype");
 }
-body p {
+@font-face {
+  font-family: SanFranciscoDisplay-Regular;
+  src: url("https://cdn.rawgit.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Regular.otf") format("opentype");
+}
+p {
   margin: 0;
 }
 .wrapper {
@@ -10,7 +15,7 @@ body p {
   height: 1334px;
   background-image: url(../images/ios10_background.jpg);
   background-size: 750px 1334px;
-  font-family: "SFNS Display", "Helvetica Neue", sans-serif;
+  font-family: "SanFranciscoDisplay-Regular", "Helvetica Neue", sans-serif;
 }
 .wrapper * {
   box-sizing: border-box;
@@ -148,224 +153,27 @@ section.icon-wrapper .icon > p {
 section.icon-wrapper .icon div[class^="icon-"] {
   width: 120px;
   height: 120px;
-  position: relative;
-  border-radius: 22%;
-  overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
 }
-section.icon-wrapper .icon div.icon-messages {
-  background: url(../images/icon/Message.svg);
-  border-radius: 0;
+section.icon-wrapper div.icon .icon-messages {
+  background: url(../images/icon/Messages.svg);
 }
-section.icon-wrapper .icon .icon-calendar {
-  background-color: white;
+section.icon-wrapper div.icon .icon-calendar {
+  background: url(../images/icon/Calendar.svg);
 }
-section.icon-wrapper .icon .icon-calendar p:first-child {
-  margin-top: 12.5%;
-  font-size: 1.15rem;
-  color: #f93f49;
-  letter-spacing: 0.01875rem;
-  text-indent: 0.125rem;
-  line-height: 1.35rem;
+section.icon-wrapper div.icon .icon-photos {
+  background: url(../images/icon/Photos.svg);
 }
-section.icon-wrapper .icon .icon-calendar p:last-child {
-  margin-top: -5.4%;
-  font-size: 5rem;
-  line-height: 1em;
-  letter-spacing: 0;
-  color: #1b1b1b;
-  font-weight: lighter;
+section.icon-wrapper div.icon .icon-camera {
+  background: url(../images/icon/Camera.svg);
 }
-section.icon-wrapper .icon .icon-photos {
-  background-color: white;
+section.icon-wrapper div.icon .icon-notes {
+  background: url(../images/icon/Notes.svg);
 }
-section.icon-wrapper .icon .icon-photos .ellipse {
-  position: absolute;
-  display: block;
-  width: 26.7%;
-  height: 41.5%;
-  margin-left: 36.7%;
-  margin-top: 6.2%;
-  border-radius: 100px;
-  transform-origin: 50% 105%;
-  mix-blend-mode: multiply;
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(1) {
-  transform: rotateZ(0deg);
-  background: linear-gradient(to bottom, #f59438, #fbbe3d);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(2) {
-  transform: rotateZ(45deg);
-  background: linear-gradient(to bottom, #f7e23c, #e2de44);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(3) {
-  transform: rotateZ(90deg);
-  background: linear-gradient(to bottom, #c6d851, #9acc6b);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(4) {
-  transform: rotateZ(135deg);
-  background: linear-gradient(to bottom, #6ec192, #70bdbd);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(5) {
-  transform: rotateZ(180deg);
-  background: linear-gradient(to bottom, #6eb8e2, #87a4d1);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(6) {
-  transform: rotateZ(225deg);
-  background: linear-gradient(to bottom, #9e8fc1, #b38ebe);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(7) {
-  transform: rotateZ(270deg);
-  background: linear-gradient(to bottom, #cd8cba, #dd758e);
-}
-section.icon-wrapper .icon .icon-photos .ellipse:nth-child(8) {
-  transform: rotateZ(315deg);
-  background: linear-gradient(to bottom, #f06b68, #f1805a);
-}
-section.icon-wrapper .icon .icon-camera {
-  background: linear-gradient(to bottom, #f7f6f8, #8a8c91);
-}
-section.icon-wrapper .icon .icon-camera .top {
-  width: 70.2%;
-  height: 5.1%;
-  margin: 27.3% auto .9% auto;
-  border-radius: 5px 5px 0 0;
-  background: linear-gradient(to bottom, #444, #404040);
-}
-section.icon-wrapper .icon .icon-camera .top::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 5.8%;
-  height: 2.5%;
-  margin-top: -3.4%;
-  margin-left: 6.6%;
-  border-radius: 2px 2px 0 0;
-  background: linear-gradient(to bottom, #383838, #3f3f3f);
-  z-index: 2;
-}
-section.icon-wrapper .icon .icon-camera .top .head {
-  position: absolute;
-  width: 29%;
-  height: 8.4%;
-  margin-top: -8.3%;
-  margin-left: 20.5%;
-  border-radius: 8px 8px 0 0;
-  background: linear-gradient(to bottom, #414141, #444);
-}
-section.icon-wrapper .icon .icon-camera .top .head i[class$='-corner'] {
-  display: block;
-  position: absolute;
-  width: 19%;
-  height: 52.5%;
-  margin-top: 14%;
-  background: linear-gradient(to bottom, #434343, #444);
-}
-section.icon-wrapper .icon .icon-camera .top .head i[class$='-corner']::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 249%;
-  height: 275%;
-  margin-top: -140.5%;
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #e5e5e7, #dadadc);
-}
-section.icon-wrapper .icon .icon-camera .top .head .left-corner {
-  margin-left: -17%;
-}
-section.icon-wrapper .icon .icon-camera .top .head .left-corner::before {
-  margin-left: -148%;
-}
-section.icon-wrapper .icon .icon-camera .top .head .right-corner {
-  margin-left: 98%;
-}
-section.icon-wrapper .icon .icon-camera .top .head .right-corner::before {
-  margin-left: -4%;
-}
-section.icon-wrapper .icon .icon-camera .mid {
-  width: 70.2%;
-  height: 36.6%;
-  margin: 0 auto;
-  background: linear-gradient(to bottom, #3e3e3e, #2c2c2c);
-}
-section.icon-wrapper .icon .icon-camera .mid .circle {
-  display: block;
-  position: absolute;
-  width: 30.1%;
-  height: 30.3%;
-  margin-left: 20%;
-  margin-top: 3.2%;
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #ceced1, #afb0b4);
-}
-section.icon-wrapper .icon .icon-camera .mid .circle::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 83%;
-  height: 83%;
-  margin-left: 8.6%;
-  margin-top: 8.1%;
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #3b3b3b, #2f2f2f);
-}
-section.icon-wrapper .icon .icon-camera .mid .circle::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 11%;
-  height: 11%;
-  margin-left: 97%;
-  margin-top: 0.3%;
-  border-radius: 50%;
-  background-color: #fec638;
-}
-section.icon-wrapper .icon .icon-camera .bottom {
-  width: 70.2%;
-  height: 5%;
-  margin: .9% auto;
-  border-radius: 0 0 5px 5px;
-  background: linear-gradient(to bottom, #2c2c2c, #272726);
-}
-section.icon-wrapper .icon .icon-notes .top {
-  width: 100%;
-  height: 31.1%;
-  background: linear-gradient(to bottom, #fcdc6a, #fccb42);
-  border-bottom: 1px solid #bababa;
-}
-section.icon-wrapper .icon .icon-notes .bottom {
-  width: 100%;
-  height: 68.9%;
-}
-section.icon-wrapper .icon .icon-notes .bottom .line {
-  width: 100%;
-  height: 27.5%;
-  font-size: 0;
-  border-bottom: 1px solid #bababa;
-  background-color: #ededed;
-}
-section.icon-wrapper .icon .icon-notes .bottom .line:first-child {
-  box-shadow: inset 0 3px 3px -2px #a2a2a2;
-}
-section.icon-wrapper .icon .icon-notes .bottom .line:first-child .circle {
-  display: inline-block;
-  width: 1.7%;
-  height: 9.26%;
-  margin-left: 1.63%;
-  margin-top: 5.2%;
-  border-radius: 50%;
-  box-shadow: inset -1px 2px 5px 1px #5d5d5d;
-}
-section.icon-wrapper .icon .icon-notes .bottom .line:first-child .circle:first-child {
-  margin-left: 1.2%;
-}
-section.icon-wrapper .icon .icon-notes .bottom .line:last-child {
-  height: 17.5%;
-  border-bottom: none;
-}
-section.icon-wrapper .icon div.icon-maps {
+section.icon-wrapper div.icon .icon-maps {
   background: url(../images/icon/Maps.svg);
-  border-radius: 0;
+}
+section.icon-wrapper div.icon .icon-weather {
+  background: url(../images/icon/Weather.svg);
 }
