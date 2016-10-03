@@ -183,3 +183,6 @@ section.icon-wrapper div.icon .icon-videos {
 section.icon-wrapper div.icon .icon-clock {
   background-image: url(../images/icon/Clock.svg);
 }
+section.icon-wrapper div.icon .icon-news {
+  background-image: url(../images/icon/News.svg);
+}
