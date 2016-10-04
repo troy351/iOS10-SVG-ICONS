@@ -8,6 +8,13 @@
   src: url("https://cdn.rawgit.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Regular.otf") format("opentype");
 }
 
+body {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: move;
+}
+
 p {
   margin: 0;
 }
@@ -193,7 +200,8 @@ section.icon-wrapper div.icon {
   }
   .icon-clock {
     background-image: url(../images/icon/Clock.svg);
-  }.icon-news {
+  }
+  .icon-news {
     background-image: url(../images/icon/News.svg);
   }
 }
