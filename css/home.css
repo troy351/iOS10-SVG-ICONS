@@ -213,3 +213,9 @@ section.icon-wrapper div.icon .icon-itunes-store {
 section.icon-wrapper div.icon .icon-app-store {
   background-image: url(../images/icon/AppStore.svg);
 }
+section.icon-wrapper div.icon .icon-home {
+  background-image: url(../images/icon/Home.svg);
+}
+section.icon-wrapper div.icon .icon-health {
+  background-image: url(../images/icon/Health.svg);
+}
