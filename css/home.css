@@ -228,6 +228,9 @@ section.icon-wrapper .page {
 .icon .icon-settings {
   background-image: url(../images/icon/Settings.svg);
 }
+.icon .icon-phone {
+  background-image: url(../images/icon/Phone.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
@@ -256,20 +259,19 @@ section.dock::after {
   position: absolute;
   width: 100%;
   height: 100%;
-  margin-left: -54px;
   margin-top: -28px;
 }
 section.dock::before {
+  margin-left: -54px;
   background-image: url(../images/ios10_background.jpg);
   background-size: 750px 1334px;
   background-position-y: 192px;
   filter: blur(12px);
-  z-index: 1;
 }
 section.dock::after {
+  margin-left: -228px;
   background-color: rgba(255, 255, 255, 0.66);
-  z-index: 1;
 }
 section.dock .icon {
-  z-index: 2;
+  z-index: 1;
 }
