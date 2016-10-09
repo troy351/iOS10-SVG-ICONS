@@ -1,8 +1,4 @@
 @font-face {
-  font-family: SanFranciscoDisplay-Ultralight;
-  src: url("https://cdn.rawgit.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Ultralight.otf") format("opentype");
-}
-@font-face {
   font-family: SanFranciscoDisplay-Regular;
   src: url("https://cdn.rawgit.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Regular.otf") format("opentype");
 }
@@ -10,7 +6,8 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-  cursor: move;
+  cursor: pointer;
+  margin: 0;
 }
 p {
   margin: 0;
@@ -21,6 +18,7 @@ p {
   height: 1334px;
   background-image: url(../images/ios10_background.jpg);
   background-size: 750px 1334px;
+  overflow: hidden;
   font-family: "SanFranciscoDisplay-Regular", "Helvetica Neue", sans-serif;
 }
 .wrapper * {
@@ -131,11 +129,16 @@ section.top-bar .battery .rect::after {
   background-color: white;
 }
 section.icon-wrapper {
-  width: 644px;
-  height: 1042px;
-  margin: 16px auto;
+  height: 1060px;
+  overflow: hidden;
 }
-section.icon-wrapper .icon {
+section.icon-wrapper .page {
+  width: 750px;
+  height: 100%;
+  padding: 16px 54px;
+  float: left;
+}
+.icon {
   position: relative;
   float: left;
   width: 120px;
@@ -143,10 +146,10 @@ section.icon-wrapper .icon {
   margin-right: 54px;
   margin-bottom: 16px;
 }
-section.icon-wrapper .icon:nth-child(4n) {
+.icon:nth-child(4n) {
   margin-right: 0;
 }
-section.icon-wrapper .icon p {
+.icon p {
   width: 160px;
   margin-top: 9px;
   margin-left: -20px;
@@ -156,69 +159,117 @@ section.icon-wrapper .icon p {
   text-align: center;
   text-transform: capitalize;
 }
-section.icon-wrapper .icon p.no-capitalize {
+.icon p.no-capitalize {
   text-transform: none;
 }
-section.icon-wrapper .icon div[class^="icon-"] {
+.icon div[class^="icon-"] {
   width: 120px;
   height: 120px;
   background-size: contain;
   background-repeat: no-repeat;
 }
-section.icon-wrapper div.icon .icon-messages {
+.icon div[class^="icon-"]:active {
+  filter: brightness(0.6);
+}
+.icon .icon-messages {
   background-image: url(../images/icon/Messages.svg);
 }
-section.icon-wrapper div.icon .icon-calendar {
+.icon .icon-calendar {
   background-image: url(../images/icon/Calendar.svg);
 }
-section.icon-wrapper div.icon .icon-photos {
+.icon .icon-photos {
   background-image: url(../images/icon/Photos.svg);
 }
-section.icon-wrapper div.icon .icon-camera {
+.icon .icon-camera {
   background-image: url(../images/icon/Camera.svg);
 }
-section.icon-wrapper div.icon .icon-notes {
+.icon .icon-notes {
   background-image: url(../images/icon/Notes.svg);
 }
-section.icon-wrapper div.icon .icon-maps {
+.icon .icon-maps {
   background-image: url(../images/icon/Maps.svg);
 }
-section.icon-wrapper div.icon .icon-weather {
+.icon .icon-weather {
   background-image: url(../images/icon/Weather.svg);
 }
-section.icon-wrapper div.icon .icon-videos {
+.icon .icon-videos {
   background-image: url(../images/icon/Videos.svg);
 }
-section.icon-wrapper div.icon .icon-clock {
+.icon .icon-clock {
   background-image: url(../images/icon/Clock.svg);
 }
-section.icon-wrapper div.icon .icon-news {
+.icon .icon-news {
   background-image: url(../images/icon/News.svg);
 }
-section.icon-wrapper div.icon .icon-wallet {
+.icon .icon-wallet {
   background-image: url(../images/icon/Wallet.svg);
 }
-section.icon-wrapper div.icon .icon-reminders {
+.icon .icon-reminders {
   background-image: url(../images/icon/Reminders.svg);
 }
-section.icon-wrapper div.icon .icon-stocks {
+.icon .icon-stocks {
   background-image: url(../images/icon/Stocks.svg);
 }
-section.icon-wrapper div.icon .icon-ibooks {
+.icon .icon-ibooks {
   background-image: url(../images/icon/iBooks.svg);
 }
-section.icon-wrapper div.icon .icon-itunes-store {
+.icon .icon-itunes-store {
   background-image: url(../images/icon/iTunesStore.svg);
 }
-section.icon-wrapper div.icon .icon-app-store {
+.icon .icon-app-store {
   background-image: url(../images/icon/AppStore.svg);
 }
-section.icon-wrapper div.icon .icon-home {
+.icon .icon-home {
   background-image: url(../images/icon/Home.svg);
 }
-section.icon-wrapper div.icon .icon-health {
+.icon .icon-health {
   background-image: url(../images/icon/Health.svg);
 }
-section.icon-wrapper div.icon .icon-settings {
+.icon .icon-settings {
   background-image: url(../images/icon/Settings.svg);
+}
+section.pagination {
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+section.pagination i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+section.pagination i.active {
+  background-color: white;
+}
+section.dock {
+  position: relative;
+  height: 192px;
+  padding: 28px 54px;
+}
+section.dock::before,
+section.dock::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: -54px;
+  margin-top: -28px;
+}
+section.dock::before {
+  background-image: url(../images/ios10_background.jpg);
+  background-size: 750px 1334px;
+  background-position-y: 192px;
+  filter: blur(12px);
+  z-index: 1;
+}
+section.dock::after {
+  background-color: rgba(255, 255, 255, 0.66);
+  z-index: 1;
+}
+section.dock .icon {
+  z-index: 2;
 }
