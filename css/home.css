@@ -248,6 +248,12 @@ section.icon-wrapper .page {
 .icon .icon-music {
   background-image: url(../images/icon/Music.svg);
 }
+.icon .icon-calculator {
+  background-image: url(../images/icon/Calculator.svg);
+}
+.icon .icon-watch {
+  background-image: url(../images/icon/Watch.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
