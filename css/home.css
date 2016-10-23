@@ -254,6 +254,9 @@ section.icon-wrapper .page {
 .icon .icon-watch {
   background-image: url(../images/icon/Watch.svg);
 }
+.icon .icon-contacts {
+  background-image: url(../images/icon/Contacts.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
