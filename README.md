@@ -1,4 +1,4 @@
-# iOS10_SVG_ICONS
+# iOS10 SVG ICONS
 iOS 10 default icons using SVG  
 Designed with *Adobe Illustrator* and compressed with *[svgo](https://github.com/svg/svgo)*
 
