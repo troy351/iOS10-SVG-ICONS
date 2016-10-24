@@ -257,6 +257,9 @@ section.icon-wrapper .page {
 .icon .icon-contacts {
   background-image: url(../images/icon/Contacts.svg);
 }
+.icon .icon-compass {
+  background-image: url(../images/icon/Compass.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
