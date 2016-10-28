@@ -260,6 +260,15 @@ section.icon-wrapper .page {
 .icon .icon-compass {
   background-image: url(../images/icon/Compass.svg);
 }
+.icon .icon-facetime {
+  background-image: url(../images/icon/FaceTime.svg);
+}
+.icon .icon-find-my-friends {
+  background-image: url(../images/icon/FindMyFriends.svg);
+}
+.icon .icon-find-my-iphone {
+  background-image: url(../images/icon/FindMyiPhone.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
