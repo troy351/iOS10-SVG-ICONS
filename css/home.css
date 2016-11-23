@@ -269,6 +269,12 @@ section.icon-wrapper .page {
 .icon .icon-find-my-iphone {
   background-image: url(../images/icon/FindMyiPhone.svg);
 }
+.icon .icon-garageband {
+  background-image: url(../images/icon/GarageBand.svg);
+}
+.icon .icon-imovie {
+  background-image: url(../images/icon/iMovie.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
