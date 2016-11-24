@@ -25,7 +25,7 @@ p {
   position: absolute;
   width: 100%;
   height: 1142px;
-  background-image: url(../images/ios10_background.jpg);
+  background-image: url(../images/wallpaper.jpg);
   background-size: 750px 1334px;
   z-index: -1;
 }
@@ -284,6 +284,21 @@ section.icon-wrapper .page {
 .icon .icon-keynote {
   background-image: url(../images/icon/Keynote.svg);
 }
+.icon .icon-apple-store {
+  background-image: url(../images/icon/AppleStore.svg);
+}
+.icon .icon-itunes-u {
+  background-image: url(../images/icon/iTunesU.svg);
+}
+.icon .icon-podcasts {
+  background-image: url(../images/icon/Podcasts.svg);
+}
+.icon .icon-tips {
+  background-image: url(../images/icon/Tips.svg);
+}
+.icon .icon-voice-memos {
+  background-image: url(../images/icon/VoiceMemos.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
@@ -318,7 +333,7 @@ section.dock::after {
   margin-left: -54px;
 }
 section.dock::before {
-  background-image: url(../images/ios10_background.jpg);
+  background-image: url(../images/wallpaper.jpg);
   background-size: 750px 1334px;
   background-position-y: 192px;
   filter: blur(24px);
