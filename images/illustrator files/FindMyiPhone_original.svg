@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+    <clipPath id="c">
+        <path d="M233,300H67c-36.85,0-67-30.15-67-67V67C0,30.15,30.15,0,67,0h166c36.85,0,67,30.15,67,67v166C300,269.85,269.85,300,233,300z"/>
+    </clipPath>
+    <clipPath id="bg">
+        <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+    <clipPath id="a">
+        <rect x="0" y="100" width="200" height="100"></rect>
+    </clipPath>
+    <path clip-path="url(#c)" fill="#efeff4" d="M0 0h300v300H0z"/>
+    <g clip-path="url(#bg)" transform="translate(30,30) scale(1.2) rotate(145,100,100)">
+        <g id="partA">
+            <rect width="100" height="100" fill="#52d669" transform="rotate(360 100 100)"></rect>
+            <rect width="100" height="100" fill="#133116" transform="rotate(1 100 100)"></rect>
+            <rect width="100" height="100" fill="#133116" transform="rotate(3 100 100)"></rect>
+            <rect width="100" height="100" fill="#133216" transform="rotate(5 100 100)"></rect>
+            <rect width="100" height="100" fill="#143317" transform="rotate(7 100 100)"></rect>
+            <rect width="100" height="100" fill="#143417" transform="rotate(9 100 100)"></rect>
+            <rect width="100" height="100" fill="#143518" transform="rotate(11 100 100)"></rect>
+            <rect width="100" height="100" fill="#153618" transform="rotate(13 100 100)"></rect>
+            <rect width="100" height="100" fill="#153719" transform="rotate(15 100 100)"></rect>
+            <rect width="100" height="100" fill="#153819" transform="rotate(17 100 100)"></rect>
+            <rect width="100" height="100" fill="#16391A" transform="rotate(19 100 100)"></rect>
+            <rect width="100" height="100" fill="#163A1A" transform="rotate(21 100 100)"></rect>
+            <rect width="100" height="100" fill="#163B1B" transform="rotate(23 100 100)"></rect>
+            <rect width="100" height="100" fill="#173C1B" transform="rotate(25 100 100)"></rect>
+            <rect width="100" height="100" fill="#173C1B" transform="rotate(27 100 100)"></rect>
+            <rect width="100" height="100" fill="#173D1C" transform="rotate(29 100 100)"></rect>
+            <rect width="100" height="100" fill="#183E1C" transform="rotate(31 100 100)"></rect>
+            <rect width="100" height="100" fill="#183F1D" transform="rotate(33 100 100)"></rect>
+            <rect width="100" height="100" fill="#18401D" transform="rotate(35 100 100)"></rect>
+            <rect width="100" height="100" fill="#19411E" transform="rotate(37 100 100)"></rect>
+            <rect width="100" height="100" fill="#19421E" transform="rotate(39 100 100)"></rect>
+            <rect width="100" height="100" fill="#1A431F" transform="rotate(41 100 100)"></rect>
+            <rect width="100" height="100" fill="#1A441F" transform="rotate(43 100 100)"></rect>
+            <rect width="100" height="100" fill="#1A4520" transform="rotate(45 100 100)"></rect>
+            <rect width="100" height="100" fill="#1B4620" transform="rotate(47 100 100)"></rect>
+            <rect width="100" height="100" fill="#1B4721" transform="rotate(49 100 100)"></rect>
+            <rect width="100" height="100" fill="#1B4721" transform="rotate(51 100 100)"></rect>
+            <rect width="100" height="100" fill="#1C4821" transform="rotate(53 100 100)"></rect>
+            <rect width="100" height="100" fill="#1C4922" transform="rotate(55 100 100)"></rect>
+            <rect width="100" height="100" fill="#1C4A22" transform="rotate(57 100 100)"></rect>
+            <rect width="100" height="100" fill="#1D4B23" transform="rotate(59 100 100)"></rect>
+            <rect width="100" height="100" fill="#1D4C23" transform="rotate(61 100 100)"></rect>
+            <rect width="100" height="100" fill="#1D4D24" transform="rotate(63 100 100)"></rect>
+            <rect width="100" height="100" fill="#1E4E24" transform="rotate(65 100 100)"></rect>
+            <rect width="100" height="100" fill="#1E4F25" transform="rotate(67 100 100)"></rect>
+            <rect width="100" height="100" fill="#1E5025" transform="rotate(69 100 100)"></rect>
+            <rect width="100" height="100" fill="#1F5126" transform="rotate(71 100 100)"></rect>
+            <rect width="100" height="100" fill="#1F5226" transform="rotate(73 100 100)"></rect>
+            <rect width="100" height="100" fill="#1F5227" transform="rotate(75 100 100)"></rect>
+            <rect width="100" height="100" fill="#205327" transform="rotate(77 100 100)"></rect>
+            <rect width="100" height="100" fill="#205427" transform="rotate(79 100 100)"></rect>
+            <rect width="100" height="100" fill="#215528" transform="rotate(81 100 100)"></rect>
+            <rect width="100" height="100" fill="#215628" transform="rotate(83 100 100)"></rect>
+            <rect width="100" height="100" fill="#215729" transform="rotate(85 100 100)"></rect>
+            <rect width="100" height="100" fill="#225829" transform="rotate(87 100 100)"></rect>
+            <rect width="100" height="100" fill="#22592A" transform="rotate(89 100 100)"></rect>
+            <rect width="100" height="100" fill="#225A2A" transform="rotate(91 100 100)"></rect>
+            <rect width="100" height="100" fill="#235B2B" transform="rotate(93 100 100)"></rect>
+            <rect width="100" height="100" fill="#235C2B" transform="rotate(95 100 100)"></rect>
+            <rect width="100" height="100" fill="#235D2C" transform="rotate(97 100 100)"></rect>
+            <rect width="100" height="100" fill="#245D2C" transform="rotate(99 100 100)"></rect>
+            <rect width="100" height="100" fill="#245E2D" transform="rotate(101 100 100)"></rect>
+            <rect width="100" height="100" fill="#245F2D" transform="rotate(103 100 100)"></rect>
+            <rect width="100" height="100" fill="#25602D" transform="rotate(105 100 100)"></rect>
+            <rect width="100" height="100" fill="#25612E" transform="rotate(107 100 100)"></rect>
+            <rect width="100" height="100" fill="#25622E" transform="rotate(109 100 100)"></rect>
+            <rect width="100" height="100" fill="#26632F" transform="rotate(111 100 100)"></rect>
+            <rect width="100" height="100" fill="#26642F" transform="rotate(113 100 100)"></rect>
+            <rect width="100" height="100" fill="#266530" transform="rotate(115 100 100)"></rect>
+            <rect width="100" height="100" fill="#276630" transform="rotate(117 100 100)"></rect>
+            <rect width="100" height="100" fill="#276731" transform="rotate(119 100 100)"></rect>
+            <rect width="100" height="100" fill="#286831" transform="rotate(121 100 100)"></rect>
+            <rect width="100" height="100" fill="#286832" transform="rotate(123 100 100)"></rect>
+            <rect width="100" height="100" fill="#286932" transform="rotate(125 100 100)"></rect>
+            <rect width="100" height="100" fill="#296A33" transform="rotate(127 100 100)"></rect>
+            <rect width="100" height="100" fill="#296B33" transform="rotate(129 100 100)"></rect>
+            <rect width="100" height="100" fill="#296C33" transform="rotate(131 100 100)"></rect>
+            <rect width="100" height="100" fill="#2A6D34" transform="rotate(133 100 100)"></rect>
+            <rect width="100" height="100" fill="#2A6E34" transform="rotate(135 100 100)"></rect>
+            <rect width="100" height="100" fill="#2A6F35" transform="rotate(137 100 100)"></rect>
+            <rect width="100" height="100" fill="#2B7035" transform="rotate(139 100 100)"></rect>
+            <rect width="100" height="100" fill="#2B7136" transform="rotate(141 100 100)"></rect>
+            <rect width="100" height="100" fill="#2B7236" transform="rotate(143 100 100)"></rect>
+            <rect width="100" height="100" fill="#2C7337" transform="rotate(145 100 100)"></rect>
+            <rect width="100" height="100" fill="#2C7337" transform="rotate(147 100 100)"></rect>
+            <rect width="100" height="100" fill="#2C7438" transform="rotate(149 100 100)"></rect>
+            <rect width="100" height="100" fill="#2D7538" transform="rotate(151 100 100)"></rect>
+            <rect width="100" height="100" fill="#2D7639" transform="rotate(153 100 100)"></rect>
+            <rect width="100" height="100" fill="#2D7739" transform="rotate(155 100 100)"></rect>
+            <rect width="100" height="100" fill="#2E7839" transform="rotate(157 100 100)"></rect>
+            <rect width="100" height="100" fill="#2E793A" transform="rotate(159 100 100)"></rect>
+            <rect width="100" height="100" fill="#2F7A3A" transform="rotate(161 100 100)"></rect>
+            <rect width="100" height="100" fill="#2F7B3B" transform="rotate(163 100 100)"></rect>
+            <rect width="100" height="100" fill="#2F7C3B" transform="rotate(165 100 100)"></rect>
+            <rect width="100" height="100" fill="#307D3C" transform="rotate(167 100 100)"></rect>
+            <rect width="100" height="100" fill="#307E3C" transform="rotate(169 100 100)"></rect>
+            <rect width="100" height="100" fill="#307E3D" transform="rotate(171 100 100)"></rect>
+            <rect width="100" height="100" fill="#317F3D" transform="rotate(173 100 100)"></rect>
+            <rect width="100" height="100" fill="#31803E" transform="rotate(175 100 100)"></rect>
+            <rect width="100" height="100" fill="#31813E" transform="rotate(177 100 100)"></rect>
+            <rect width="100" height="100" fill="#32823F" transform="rotate(179 100 100)"></rect>
+        </g>
+        <g id="partB" clip-path="url(#a)">
+            <rect width="100" height="100" fill="#32833F" transform="rotate(181 100 100)"></rect>
+            <rect width="100" height="100" fill="#32833F" transform="rotate(181 100 100)"></rect>
+            <rect width="100" height="100" fill="#32843F" transform="rotate(183 100 100)"></rect>
+            <rect width="100" height="100" fill="#338540" transform="rotate(185 100 100)"></rect>
+            <rect width="100" height="100" fill="#338640" transform="rotate(187 100 100)"></rect>
+            <rect width="100" height="100" fill="#338741" transform="rotate(189 100 100)"></rect>
+            <rect width="100" height="100" fill="#348841" transform="rotate(191 100 100)"></rect>
+            <rect width="100" height="100" fill="#348942" transform="rotate(193 100 100)"></rect>
+            <rect width="100" height="100" fill="#348942" transform="rotate(195 100 100)"></rect>
+            <rect width="100" height="100" fill="#358A43" transform="rotate(197 100 100)"></rect>
+            <rect width="100" height="100" fill="#358B43" transform="rotate(199 100 100)"></rect>
+            <rect width="100" height="100" fill="#368C44" transform="rotate(201 100 100)"></rect>
+            <rect width="100" height="100" fill="#368D44" transform="rotate(203 100 100)"></rect>
+            <rect width="100" height="100" fill="#368E45" transform="rotate(205 100 100)"></rect>
+            <rect width="100" height="100" fill="#378F45" transform="rotate(207 100 100)"></rect>
+            <rect width="100" height="100" fill="#379045" transform="rotate(209 100 100)"></rect>
+            <rect width="100" height="100" fill="#379146" transform="rotate(211 100 100)"></rect>
+            <rect width="100" height="100" fill="#389246" transform="rotate(213 100 100)"></rect>
+            <rect width="100" height="100" fill="#389347" transform="rotate(215 100 100)"></rect>
+            <rect width="100" height="100" fill="#389447" transform="rotate(217 100 100)"></rect>
+            <rect width="100" height="100" fill="#399448" transform="rotate(219 100 100)"></rect>
+            <rect width="100" height="100" fill="#399548" transform="rotate(221 100 100)"></rect>
+            <rect width="100" height="100" fill="#399649" transform="rotate(223 100 100)"></rect>
+            <rect width="100" height="100" fill="#3A9749" transform="rotate(225 100 100)"></rect>
+            <rect width="100" height="100" fill="#3A984A" transform="rotate(227 100 100)"></rect>
+            <rect width="100" height="100" fill="#3A994A" transform="rotate(229 100 100)"></rect>
+            <rect width="100" height="100" fill="#3B9A4B" transform="rotate(231 100 100)"></rect>
+            <rect width="100" height="100" fill="#3B9B4B" transform="rotate(233 100 100)"></rect>
+            <rect width="100" height="100" fill="#3B9C4B" transform="rotate(235 100 100)"></rect>
+            <rect width="100" height="100" fill="#3C9D4C" transform="rotate(237 100 100)"></rect>
+            <rect width="100" height="100" fill="#3C9E4C" transform="rotate(239 100 100)"></rect>
+            <rect width="100" height="100" fill="#3D9F4D" transform="rotate(241 100 100)"></rect>
+            <rect width="100" height="100" fill="#3D9F4D" transform="rotate(243 100 100)"></rect>
+            <rect width="100" height="100" fill="#3DA04E" transform="rotate(245 100 100)"></rect>
+            <rect width="100" height="100" fill="#3EA14E" transform="rotate(247 100 100)"></rect>
+            <rect width="100" height="100" fill="#3EA24F" transform="rotate(249 100 100)"></rect>
+            <rect width="100" height="100" fill="#3EA34F" transform="rotate(251 100 100)"></rect>
+            <rect width="100" height="100" fill="#3FA450" transform="rotate(253 100 100)"></rect>
+            <rect width="100" height="100" fill="#3FA550" transform="rotate(255 100 100)"></rect>
+            <rect width="100" height="100" fill="#3FA651" transform="rotate(257 100 100)"></rect>
+            <rect width="100" height="100" fill="#40A751" transform="rotate(259 100 100)"></rect>
+            <rect width="100" height="100" fill="#40A851" transform="rotate(261 100 100)"></rect>
+            <rect width="100" height="100" fill="#40A952" transform="rotate(263 100 100)"></rect>
+            <rect width="100" height="100" fill="#41AA52" transform="rotate(265 100 100)"></rect>
+            <rect width="100" height="100" fill="#41AA53" transform="rotate(267 100 100)"></rect>
+            <rect width="100" height="100" fill="#41AB53" transform="rotate(269 100 100)"></rect>
+            <rect width="100" height="100" fill="#42AC54" transform="rotate(271 100 100)"></rect>
+            <rect width="100" height="100" fill="#42AD54" transform="rotate(273 100 100)"></rect>
+            <rect width="100" height="100" fill="#42AE55" transform="rotate(275 100 100)"></rect>
+            <rect width="100" height="100" fill="#43AF55" transform="rotate(277 100 100)"></rect>
+            <rect width="100" height="100" fill="#43B056" transform="rotate(279 100 100)"></rect>
+            <rect width="100" height="100" fill="#44B156" transform="rotate(281 100 100)"></rect>
+            <rect width="100" height="100" fill="#44B257" transform="rotate(283 100 100)"></rect>
+            <rect width="100" height="100" fill="#44B357" transform="rotate(285 100 100)"></rect>
+            <rect width="100" height="100" fill="#45B457" transform="rotate(287 100 100)"></rect>
+            <rect width="100" height="100" fill="#45B558" transform="rotate(289 100 100)"></rect>
+            <rect width="100" height="100" fill="#45B558" transform="rotate(291 100 100)"></rect>
+            <rect width="100" height="100" fill="#46B659" transform="rotate(293 100 100)"></rect>
+            <rect width="100" height="100" fill="#46B759" transform="rotate(295 100 100)"></rect>
+            <rect width="100" height="100" fill="#46B85A" transform="rotate(297 100 100)"></rect>
+            <rect width="100" height="100" fill="#47B95A" transform="rotate(299 100 100)"></rect>
+            <rect width="100" height="100" fill="#47BA5B" transform="rotate(301 100 100)"></rect>
+            <rect width="100" height="100" fill="#47BB5B" transform="rotate(303 100 100)"></rect>
+            <rect width="100" height="100" fill="#48BC5C" transform="rotate(305 100 100)"></rect>
+            <rect width="100" height="100" fill="#48BD5C" transform="rotate(307 100 100)"></rect>
+            <rect width="100" height="100" fill="#48BE5D" transform="rotate(309 100 100)"></rect>
+            <rect width="100" height="100" fill="#49BF5D" transform="rotate(311 100 100)"></rect>
+            <rect width="100" height="100" fill="#49C05D" transform="rotate(313 100 100)"></rect>
+            <rect width="100" height="100" fill="#49C05E" transform="rotate(315 100 100)"></rect>
+            <rect width="100" height="100" fill="#4AC15E" transform="rotate(317 100 100)"></rect>
+            <rect width="100" height="100" fill="#4AC25F" transform="rotate(319 100 100)"></rect>
+            <rect width="100" height="100" fill="#4BC35F" transform="rotate(321 100 100)"></rect>
+            <rect width="100" height="100" fill="#4BC460" transform="rotate(323 100 100)"></rect>
+            <rect width="100" height="100" fill="#4BC560" transform="rotate(325 100 100)"></rect>
+            <rect width="100" height="100" fill="#4CC661" transform="rotate(327 100 100)"></rect>
+            <rect width="100" height="100" fill="#4CC761" transform="rotate(329 100 100)"></rect>
+            <rect width="100" height="100" fill="#4CC862" transform="rotate(331 100 100)"></rect>
+            <rect width="100" height="100" fill="#4DC962" transform="rotate(333 100 100)"></rect>
+            <rect width="100" height="100" fill="#4DCA63" transform="rotate(335 100 100)"></rect>
+            <rect width="100" height="100" fill="#4DCB63" transform="rotate(337 100 100)"></rect>
+            <rect width="100" height="100" fill="#4ECB63" transform="rotate(339 100 100)"></rect>
+            <rect width="100" height="100" fill="#4ECC64" transform="rotate(341 100 100)"></rect>
+            <rect width="100" height="100" fill="#4ECD64" transform="rotate(343 100 100)"></rect>
+            <rect width="100" height="100" fill="#4FCE65" transform="rotate(345 100 100)"></rect>
+            <rect width="100" height="100" fill="#4FCF65" transform="rotate(347 100 100)"></rect>
+            <rect width="100" height="100" fill="#4FD066" transform="rotate(349 100 100)"></rect>
+            <rect width="100" height="100" fill="#50D166" transform="rotate(351 100 100)"></rect>
+            <rect width="100" height="100" fill="#50D267" transform="rotate(353 100 100)"></rect>
+            <rect width="100" height="100" fill="#50D367" transform="rotate(355 100 100)"></rect>
+            <rect width="100" height="100" fill="#51D468" transform="rotate(357 100 100)"></rect>
+            <rect width="100" height="100" fill="#51D568" transform="rotate(359 100 100)"></rect>
+        </g>
+    </g>
+    <path d="M150 33.5c31.118 0 60.374 12.118 82.378 34.122C254.382 89.626 266.5 118.882 266.5 150s-12.118 60.374-34.122 82.378C210.374 254.382 181.118 266.5 150 266.5s-60.374-12.118-82.378-34.122C45.618 210.374 33.5 181.118 33.5 150s12.118-60.374 34.122-82.378C89.626 45.618 118.882 33.5 150 33.5m0-3.5C83.726 30 30 83.726 30 150s53.726 120 120 120 120-53.726 120-120S216.274 30 150 30z"
+          fill="#35ed33"/>
+    <path d="M150 75c41.355 0 75 33.645 75 75s-33.645 75-75 75-75-33.645-75-75 33.645-75 75-75m0-3.5c-43.354 0-78.5 35.146-78.5 78.5s35.146 78.5 78.5 78.5 78.5-35.146 78.5-78.5-35.146-78.5-78.5-78.5z"
+          fill="#35ed33"/>
+    <path d="M150 116.5c18.472 0 33.5 15.028 33.5 33.5s-15.028 33.5-33.5 33.5-33.5-15.028-33.5-33.5 15.028-33.5 33.5-33.5m0-3.5c-20.435 0-37 16.565-37 37s16.565 37 37 37 37-16.565 37-37-16.565-37-37-37z"
+          fill="#35ed33"/>
+    <path d="M150 30c66.143 0 119.763 53.726 119.763 120S216.143 270 150 270 30.237 216.274 30.237 150 83.857 30 150 30m0-11c-34.932 0-67.772 13.629-92.471 38.377C32.836 82.119 19.237 115.013 19.237 150s13.599 67.882 38.292 92.623C82.228 267.371 115.068 281 150 281s67.772-13.629 92.471-38.377c24.693-24.742 38.292-57.636 38.292-92.623s-13.599-67.881-38.292-92.623C217.772 32.629 184.932 19 150 19z"/>
+
+</svg>
