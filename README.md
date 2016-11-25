@@ -9,42 +9,42 @@ mix-blend-mode: multiply;
 
 ##icon-list
 * App Store
+* Apple Store
+* Calculator
 * Calendar
 * Camera
 * Clock
+* Compass
+* Contacts
+* FaceTime
+* Find My Friends
+* Find My iPhone
+* GarageBand
 * Health
+* Home
 * iBooks
+* iMovie
 * iTunes Store
+* iTunes
+* Keynote
+* Mail
 * Maps
 * Messages
+* Music
+* News
 * Notes
+* Numbers
+* Pages
 * Phone
 * Photos
+* Podcasts
 * Reminders
 * Safari
 * Settings
-* Videos
-* Wallet
-* Weather
-* Watch
-* Calculator
-* Home
-* Mail
-* Music
 * Stock
-* Contacts
-* Compass
-* FaceTime
-* Find My iPhone
-* Find My Friends
-* GarageBand
-* iMovie
-* Pages
-* Numbers
-* Keynote
-* News
-* iTunes U
-* Apple Store
-* Podcasts
-* Voice Memos
 * Tips
+* Videos
+* Voice Memos
+* Wallet
+* Watch
+* Weather
