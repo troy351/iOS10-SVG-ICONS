@@ -299,6 +299,9 @@ section.icon-wrapper .page {
 .icon .icon-voice-memos {
   background-image: url(../images/icon/VoiceMemos.svg);
 }
+.icon .icon-tv {
+  background-image: url(../images/icon/TV.svg);
+}
 section.pagination {
   height: 15px;
   margin-top: 20px;
